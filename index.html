@@ -67,7 +67,7 @@
     <nav class="navbar navbar-dark bg-dark navbar-expand fixed-bottom rounded-top-4 p-0" id="navbar-menus">
         <ul class="navbar-nav nav-justified w-100 align-items-center">
             <li class="nav-item">
-                <a class="nav-link" href="#home">
+                <a class="nav-link" onclick="window.scrollTo(0, 0);">
                     <i class="fas fa-home"></i>
                     <span class="d-block" style="font-size: 0.7rem;">Home</span>
                 </a>
@@ -94,14 +94,14 @@
     </nav>
 
     <!-- Main Content -->
-    <main class="text-light" data-bs-spy="scroll" data-bs-target="#navbar-menus" data-bs-root-margin="0px 0px -40%"
+    <main class="text-light" id="main" data-bs-spy="scroll" data-bs-target="#navbar-menus" data-bs-root-margin="0px 0px -40%"
         data-bs-smooth-scroll="true" tabindex="0">
 
         <!-- Home -->
-        <section class="container" style="margin-top: 250px;" id="home">
+        <section class="container" style="margin-top: 220px;" id="home">
 
             <div class="text-center">
-                <h1 class="font-esthetic" style="font-size: 2.8rem;">Wedding Ceremony</h1>
+                <h1 class="font-esthetic" style="font-size: 2.8rem; font-weight: bolder;">Wedding Ceremony</h1>
 
                 <div class="py-8">
                     <div class="img-crop border border-3 border-light shadow mx-auto">
@@ -141,7 +141,7 @@
                     </div>
                 </div>
 
-                <!-- <h1 class="font-esthetic py-4 px-2" style="font-size: 2rem">Assalamualaikum Warahmatullahi Wabarakatuh</h1> -->
+                <!-- <h1 class="font-esthetic py-4 px-2" style="font-size: 3rem">Assalamualaikum Warahmatullahi Wabarakatuh</h1> -->
 
                 <p class="pb-3 px-3">
                     We invite you and your family to ayyend our wedding
@@ -230,8 +230,15 @@
         <section id="tanggal">
             <div class="container">
                 <div class="text-center">
+                    <div class="overflow-x-hidden">
+                        <div class="py-2" data-aos="fade-right" data-aos-duration="1500">
+                            <h1 class="font-esthetic" style="font-size: 3rem;">Subha Muhurtham</h1>
+                            <p>17 April 2024 12:00:00</p>
+                        </div>
 
-                    <h1 class="font-esthetic py-3" style="font-size: 2rem;">Count Down to Our Union</h1>
+                    </div>
+
+                    <h1 class="font-esthetic py-3" style="font-size: 1.9rem;">Count Down to Our Union</h1>
                     <div class="border rounded-pill shadow py-2 px-4 mx-2 mb-4">
 
                         <!-- Ganti waktunya pada data-waktu (sesuai format tersebut) -->
@@ -269,14 +276,6 @@
                                     d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15" />
                             </svg>
                         </div>
-                    </div>
-
-                    <div class="overflow-x-hidden">
-                        <div class="py-2" data-aos="fade-right" data-aos-duration="1500">
-                            <h1 class="font-esthetic" style="font-size: 2rem;">Subha Muhurtham</h1>
-                            <p>17 April 2024 12:00:00</p>
-                        </div>
-
                     </div>
 
                     <div class="py-2" data-aos="fade-up" data-aos-duration="1500">
@@ -332,7 +331,7 @@
         <div class="container">
             <div class="text-center" data-aos="fade-up" data-aos-duration="2000">
 
-                <h1 class="font-esthetic mt-0 mb-3" style="font-size: 2rem">
+                <h1 class="font-esthetic mt-0 mb-3" style="font-size: 3rem">
                    Haldhi
                 </h1>
 
@@ -368,7 +367,7 @@
         <div class="container">
             <div class="text-center" data-aos="fade-up" data-aos-duration="2000">
 
-                <h1 class="font-esthetic mt-0 mb-3" style="font-size: 2rem">
+                <h1 class="font-esthetic mt-0 mb-3" style="font-size: 3rem">
                     Sangeeth
                 </h1>
 
@@ -404,7 +403,7 @@
         <div class="container">
             <div class="text-center" data-aos="fade-up" data-aos-duration="2000">
 
-                <h1 class="font-esthetic mt-0 mb-3" style="font-size: 2rem">
+                <h1 class="font-esthetic mt-0 mb-3" style="font-size: 3rem">
                     Reception
                 </h1>
 
@@ -436,7 +435,7 @@
                 <div class="card-body border rounded-4 shadow p-3">
 
                     <h1 class="font-esthetic text-center py-3" data-aos="fade-down" data-aos-duration="1500"
-                        style="font-size: 2rem;">Gallery</h1>
+                        style="font-size: 3rem;">Gallery</h1>
 
                     <div id="carousel-foto-satu" data-aos="fade-up" data-aos-duration="1500" class="carousel slide"
                         data-bs-ride="carousel">
@@ -536,7 +535,7 @@
 
                 <h1 class="font-esthetic" data-aos="fade-up" data-aos-duration="2000">Wassalamualaikum Warahmatullahi
                     Wabarakatuh</h1>
-                <h1 class="font-arabic py-4 px-2" data-aos="fade-up" data-aos-duration="2000" style="font-size: 2rem">
+                <h1 class="font-arabic py-4 px-2" data-aos="fade-up" data-aos-duration="2000" style="font-size: 3rem">
                     اَلْحَمْدُ لِلّٰهِ رَبِّ الْعٰلَمِيْنَۙ</h1>
 
                 <hr class="mt-3 mb-2">
